@@ -1,0 +1,8 @@
+design-controls-toolkit
+========================
+可插拔模块（lgd-skeleton/1.0）。医疗器械设计控制工具包（DHF/DMR/设计转换/人因挂点）。
+入口: scripts/design_controls.py
+元数据: module.json
+总入口: medical-ai-toolkit
+关联: iso14971-risk-file, iec62304-software, device-regulatory-map
+许可: Apache-2.0 · 贡献者: @stevenzhao07 (MedXpert)

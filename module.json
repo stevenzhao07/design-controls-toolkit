@@ -1,0 +1,44 @@
+{
+  "id": "design-controls-toolkit",
+  "title": "医疗器械设计控制工具包（DHF/DMR/设计转换/人因挂点）",
+  "description": "把 ISO 13485 §7.3 设计开发控制与 21 CFR 820.30 设计控制落成可运行的自检清单生成器：设计输入/输出、评审、验证(V&V)、确认、设计转换、变更控制、DHF/DMR 索引，含 IEC 62366-1 人因工程挂点。适用于 II/III 类器械与 SaMD 的设计阶段质量体系搭建。",
+  "triggers": {
+    "keywords": [
+      "design-controls",
+      "dhf",
+      "dmr",
+      "设计控制",
+      "设计转换",
+      "iso13485",
+      "820.30",
+      "human-factors"
+    ],
+    "file_patterns": [
+      "design_controls.py"
+    ],
+    "intents": [
+      "设计控制自查",
+      "DHF 建立",
+      "设计验证确认",
+      "人因工程"
+    ]
+  },
+  "provides": [
+    "design-controls-toolkit",
+    "design-controls",
+    "dhf-checklist",
+    "v&v-plan"
+  ],
+  "skills": [],
+  "needs_backends": [],
+  "license": "Apache-2.0",
+  "upstream": "OpenRegulatory/templates",
+  "cost": "low",
+  "lazy": true,
+  "nested": true,
+  "entry": "scripts/design_controls.py",
+  "deps": [],
+  "generated_by": "lgd-skeleton/1.0 (manual port from rea scaffold)",
+  "idea": "设计控制清单生成器（ISO 13485 7.3 + 820.30 + IEC 62366 挂点）",
+  "extension_note": "新增控制项：在 DESIGN_CATALOG 加一项，清单自动扩。"
+}
